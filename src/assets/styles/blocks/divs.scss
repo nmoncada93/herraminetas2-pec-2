@@ -1,0 +1,63 @@
+/*********************************************
+CONTACT PAGE
+**********************************************/
+
+.div-contacto__h2 {
+    padding-bottom: 30px;
+    font-size: $font-size-h1;
+    text-align: center;
+}
+
+.contact-wrapper {
+    padding: $padding-normal;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 0 var(--color-white); 
+}
+
+.contact-info {
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border-radius: 20px;
+
+    &__ul {
+        padding: 0;
+    }
+
+    &__img {
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+.contact-info__h4,
+.contact-info__p,
+.contact-info__ul {
+    margin: 0 0 1rem 0;
+    text-align: center; 
+}
+
+@media(min-width:990px) {
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+
+    .contact-info {
+        border-radius: 0 20px 20px 0;
+    }
+
+    .contact-info__h4,
+    .contact-info__ul {
+        text-align: left;
+    }
+
+    .contact-info__img {
+        width: 100%;    
+    }
+}
+

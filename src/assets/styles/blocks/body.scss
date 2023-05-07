@@ -1,0 +1,39 @@
+/*********************************************
+HOME PAGE
+**********************************************/
+.body-home {
+    background-image: url('../images/juego-de-ajedrez.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*********************************************
+MEMBERS PAGE
+**********************************************/
+.club-members-h1 {
+    padding: 30px;
+    margin-top: 10px;
+    font-size: $font-size-h1;
+    color: var(--color-white);
+    text-align: center;
+    text-shadow: $text-shadow;
+    background-color: var(--color-marron);
+    border-radius: 20px;
+}
+
+
+/*********************************************
+CONTACT PAGE
+**********************************************/
+.body-contact {
+    line-height: 1.6;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+
+@media (min-width:990px) {
+    .body-contact {
+        padding: 0 4em;
+    }
+}

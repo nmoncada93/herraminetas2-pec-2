@@ -1,0 +1,27 @@
+/*********************************************
+BLOG PAGE
+**********************************************/
+
+.section {
+text-align: center;
+
+    &__h2 {
+        padding-top: $padding-normal;
+        padding-bottom: $padding-normal;
+    }
+}
+
+.section1__h2, 
+.section1__p {
+    text-align: center;
+}
+
+@media (min-width:990px){
+    .section1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px; 
+        padding-top: 30px;
+        padding-bottom: 30px;
+        }
+    }

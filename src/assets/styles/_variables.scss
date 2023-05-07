@@ -1,0 +1,12 @@
+@use "sass:color";
+
+$padding-normal: 20px;
+$font-size-h1: 3rem;
+$text-shadow: 2px 2px 6px var(--color-black);
+
+$theme-colors: ( //pertenece a Bootstrap5
+    "warning": white,
+    "primary": red
+);
+
+

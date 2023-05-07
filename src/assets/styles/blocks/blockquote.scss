@@ -1,0 +1,17 @@
+/*********************************************
+BLOG PAGE
+**********************************************/
+
+.blockquote {
+     color: var(--color-white);
+    background-color: var(--color-marron);
+    border-radius: 20px 0;
+   
+    &__p {
+        padding: $padding-normal;
+    }
+
+    &__cite {
+        font-weight: bold;
+    }
+}

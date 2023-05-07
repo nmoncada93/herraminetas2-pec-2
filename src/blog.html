@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolas Moncada">
+    <meta name="description" content="Clud de Ajedrez">
+    <!--LINKS FAVICONS Y FONTS-->
+    <!--ANIMACION CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    <title>Blog</title>
+</head>
+
+<body>
+    <include src="./views/header.html"></include>
+    <main class="container-fluid">
+        <h1 class="article__h1">Campeonato Internacional de Ajedrez <span class="badge bg-warning"
+                style="color: var(--color-black);">¡Pronto!</span>
+        </h1>
+        <article class=" container-sm article">
+
+            <img class="article__img animated bounceInUp" src="./assets/images/composing-g61372223b_1280.jpg"
+                alt="campeonato-de-ajedrez">
+
+            <div class="alert alert-primary d-flex align-items-center" role="alert">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
+                    aria-label="Warning:">
+                    <path
+                        d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+                <div>
+                    ¡¡YA QUEDA POCO PARA EL CAMPEONATO!!
+                </div>
+            </div>
+
+            <section class="section1">
+                <h2 class="section1__h2">¡Un evento que no te puedes perder este verano!</h2>
+                <p class="section1__p">Este verano, la ciudad de Barcelona será el escenario del Campeonato
+                    Internacional
+                    de Ajedrez, que
+                    reunirá a los mejores jugadores de todo el mundo para competir en un evento lleno de emociones y
+                    estrategia.</p>
+                <p class="section1__p">El torneo se llevará a cabo en el impresionante Centro de Convenciones de la
+                    ciudad, y contará con la
+                    participación de más de cien jugadores de ajedrez de todo el mundo. Habrá una gran variedad de
+                    jugadores, desde jóvenes prodigios hasta veteranos experimentados, todos dispuestos a demostrar sus
+                    habilidades en el tablero.</p>
+                <p class="section1__p">El campeonato se llevará a cabo en un formato de eliminación simple, donde los
+                    jugadores se
+                    enfrentarán
+                    en partidas a lo largo de varias rondas, hasta que solo quede un ganador. Cada jugador tendrá un
+                    tiempo
+                    límite para cada partida, lo que agrega una emocionante presión al torneo.</p>
+                <p class="section1__p">El torneo comenzará con una ceremonia de apertura llena de espectáculo y música
+                    en
+                    vivo, y los
+                    jugadores
+                    tendrán la oportunidad de conocerse y prepararse para las partidas que les esperan.</p>
+                <p class="section1__p">La primera ronda comenzará al día siguiente, y los jugadores competirán en
+                    partidas intensas durante
+                    todo
+                    el día. Los espectadores podrán disfrutar de la emoción del juego, observando las jugadas de los
+                    maestros y viendo cómo se van desarrollando las partidas en tiempo real.</p>
+                <p class="section1__p">En los días siguientes, el torneo se volverá aún más emocionante, ya que los
+                    jugadores tendrán que
+                    enfrentarse a oponentes cada vez más fuertes. Los partidos serán cada vez más complejos, con
+                    estrategias
+                    y tácticas que dejarán a los espectadores boquiabiertos.</p>
+                <p class="section1__p">Después de varios días de intensa competencia, solo quedará un ganador. Este
+                    jugador será coronado
+                    campeón del Campeonato Internacional de Ajedrez, y recibirá el reconocimiento de todo el mundo por
+                    su
+                    habilidad y estrategia en el juego.</p>
+                <p class="section1__p">Pero el torneo no es solo para los jugadores. Los espectadores también tendrán la
+                    oportunidad de
+                    disfrutar de un ambiente lleno de emociones, con stands y áreas de entretenimiento para toda la
+                    familia.
+                    Habrá áreas de juegos para niños, presentaciones de artistas locales y una gran variedad de
+                    alimentos y
+                    bebidas para disfrutar.</p>
+                <p class="section1__p">Así que si eres un amante del ajedrez, o simplemente estás buscando una
+                    experiencia emocionante este
+                    verano, ¡no te pierdas el Campeonato Internacional de Ajedrez en Barcelona! Este evento será una
+                    oportunidad única para disfrutar de la emoción del juego y conocer a algunos de los mejores
+                    jugadores de
+                    ajedrez del mundo. ¡Nos vemos allí!</p>
+            </section>
+
+            <section class="section">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+                            aria-label="Slide 6"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/images/barcelona-ciudad.png" class="d-block w-100"
+                                alt="barcelona-ciudad">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/jugadores-en-partida-de-ajedrez.png" class="d-block w-100"
+                                alt="jugadores-en-partida-de-ajedrez">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/trofeos-de-ajedrez.png" class="d-block w-100"
+                                alt="trofeos-de-ajedrez">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/audiencia-campeonato.png" class="d-block w-100"
+                                alt="audiencia-campeonato">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/inauguracion-evento.png" class="d-block w-100"
+                                alt="inauguracion-evento">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/images/partida-ajedraz.png" class="d-block w-100" alt="partida-ajedraz">
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section__h2">Informaciones útiles</h2>
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Fecha
+                            </button>
+                        </h3>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">El campeonato tendrá lugar durante dos semanas en julio,
+                                <strong> del 10
+                                    al 24.</strong>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Ubicación
+                            </button>
+                        </h3>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">El evento se llevará a cabo en el <strong> Centro de
+                                    Convenciones de
+                                    Barcelona</strong>,
+                                situado en el distrito de
+                                Les Corts.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                Entradas
+                            </button>
+                        </h3>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Las entradas para el evento estarán disponibles para su compra
+                                en <strong> línea</strong>
+                                o en
+                                <strong> taquilla</strong> durante el
+                                evento. El precio de las entradas variará según la ubicación y el día del evento.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Programa
+                            </button>
+                        </h3>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">El programa completo del campeonato se publicará en el <strong>
+                                    sitio web
+                                    oficial</strong>
+                                del
+                                evento unos días
+                                antes del inicio del torneo. Este programa incluirá detalles sobre las rondas, los
+                                jugadores,
+                                las partidas y los horarios.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                Transmisión en vivo
+                            </button>
+                        </h3>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">El campeonato será <strong>transmitido en vivo por
+                                    internet</strong> para
+                                aquellos que no
+                                puedan asistir al
+                                evento en persona. La transmisión en vivo también estará disponible para su compra en
+                                línea.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
+                                Reglas
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">El campeonato seguirá las reglas estándar del ajedrez, y se
+                                aplicarán
+                                las
+                                reglas de la <strong> FIDE
+                                    (Federación Internacional de Ajedrez)</strong>. Los jugadores deberán cumplir con
+                                estas reglas,
+                                así como
+                                con las reglas específicas del torneo que se publicarán antes del inicio del campeonato.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                aria-controls="flush-collapseSeven">
+                                Alojamiento
+                            </button>
+                        </h3>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Hay una <strong> gran variedad de opciones de alojamiento en la
+                                    ciudad de
+                                    Barcelona</strong>,
+                                desde hoteles de
+                                lujo hasta hostales económicos. Los organizadores del evento ofrecerán recomendaciones
+                                de
+                                alojamiento cercanas al lugar del campeonato.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingHeight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseHeight" aria-expanded="false"
+                                aria-controls="flush-collapseHeight">
+                                Transporte
+                            </button>
+                        </h3>
+                        <div id="flush-collapseHeight" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingHeight" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">La ciudad de Barcelona cuenta con una excelente red de
+                                transporte
+                                público,
+                                que incluye
+                                <strong> autobuses, metro y tren</strong>. Los organizadores del evento recomiendan
+                                utilizar el transporte
+                                público
+                                para llegar al lugar del campeonato, ya que el estacionamiento puede ser limitado.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseNine" aria-expanded="false"
+                                aria-controls="flush-collapseNine">
+                                Comida y bebida
+                            </button>
+                        </h3>
+                        <div id="flush-collapseNine" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Habrá una gran variedad de opciones de comida y bebida
+                                <strong> disponibles en el
+                                    lugar del campeonato</strong>,
+                                desde opciones de comida rápida hasta restaurantes de alta calidad. También <strong>se
+                                    permitirá
+                                    llevar
+                                    comida y bebida al evento</strong>.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header" id="flush-headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTen" aria-expanded="false"
+                                aria-controls="flush-collapseTen">
+                                Seguridad
+                            </button>
+                        </h3>
+                        <div id="flush-collapseTen" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Los organizadores del evento estarán trabajando en colaboración
+                                con las
+                                <strong> autoridades locales</strong> para
+                                garantizar la seguridad de todos los asistentes. Se solicita a los asistentes que sigan
+                                las
+                                instrucciones del personal de seguridad y que estén atentos a sus pertenencias en todo
+                                momento.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="section__p">¡Esperamos que esta lista de informaciones útiles te sea de ayuda para planificar
+                    tu asistencia al
+                    Campeonato Internacional de Ajedrez en Barcelona!</p>
+            </section>
+        </article>
+
+        <blockquote class="container-sm blockquote">
+            <p class="blockquote__p">
+                Hay ajedrecistas a los que asusta cualquier ataque, sea contra un peón, contra una pieza o,
+                especialmente, contra el rey; y para contrarrestar este ataque movilizan todas sus piezas. Esto es un
+                error, pues el rey debe defenderse con el mínimo de piezas que sean necesarias; éstas deben emplearse
+                masivamente, en cambio, cuando se ataca al rey adversario.
+            </p>
+            <cite class="blockquote__cite">J.R Capablanca</cite>
+        </blockquote>
+    </main>
+    <include src="./views/footer.html"></include>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+/*********************************************
+CONTACT PAGE
+**********************************************/
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__label {
+        display: block;
+    }
+
+    &__mensaje {
+        grid-column: 1 / 3;
+    } 
+}
+
+.form__p, 
+.form__mensaje, 
+.form__button {
+    padding: 1em;
+    margin: 0; 
+}
+
+.form__button,
+.form__input,
+.form__textarea {
+    width: 100%;
+    padding: .7em;
+    color: var(--color-white);
+    background: none;
+    border-bottom: 1px solid var(--color-white);
+}
+
+.form__button {
+    width: 200%;
+    padding: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-marron);
+    border: none;
+    border-radius: 20px;  
+}
+
+.form__button:hover {
+    font-weight: bold;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.6s;     
+}
+
+
+
+
+

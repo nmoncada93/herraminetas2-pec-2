@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es"> <!--Lo añadimos debido al validador y por la guía de estilo escogida-->
+<!--La barra inclinada de cierre, de las etiquetas vacias como metas y link, se eliminan por que lo pide la guía de estilo-->
+
+<head>
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"> SE ELIMINA POR LA GUIA-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Nicolas Moncada">
+  <meta name="organisation" content="UOC">
+  <meta name="description" content="Club de Ajedrez">
+  <!--<link rel="icon" href="./assets/images/satelite.png" type="images/x-icon"> -->
+  <!--La guía sugiere eliminar el atributo "type=" para los "links" CSS y JavaScript -->
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>Club de Ajedrez</title>
+  <script type="module" src="./assets/scripts/main.js"></script>
+</head>
+
+<body class="body-home">
+  <include src="./views/header.html"></include>
+
+  <main class="container-fluid ">
+
+    <!-----------------GRID---------------->
+
+    <div class="layout-grid">
+      <h1 class="layout-grid__item item1">El Club de los Frikis de Ajedrez</h1>
+      <h2 class="layout-grid__item item2">El Ajedrez es Vida</h2>
+      <h3 class="layout-grid__item item3">¡Bienvenidos al sitio web del Club de los Frikis de Ajedrez!</h3>
+      <p class="layout-grid__item item4"> Nos complace darles la bienvenida a todos los
+        apasionados del ajedrez que buscan mejorar sus habilidades y disfrutar de este juego intelectualmente
+        desafiante.
+        Nuestro club está formado por jugadores de todas las edades y niveles de habilidad, desde principiantes
+        hasta
+        jugadores experimentados. Nos enorgullecemos de ofrecer un ambiente amigable y acogedor para que todos
+        puedan
+        aprender, jugar y socializar juntos. Además, organizamos torneos y eventos especiales para que nuestros
+        miembros
+        puedan poner a prueba sus habilidades y divertirse. Esperamos que disfruten navegando por nuestro sitio
+        web y
+        que
+        se unan a nosotros para compartir su amor por el ajedrez. </p>
+      <h4 class="layout-grid__item item5">¡Bienvenidos de nuevo al Club los Frikis de
+        Ajedrez!</h4>
+      <h5 class="layout-grid__item item6">Campeonato Mundial de Ajedrez</h5>
+      <p class="layout-grid__item item7">13.07.2023</p>
+      <button class="layout-grid__item item8" type="button">Apuntarme</button>
+    </div>
+  </main>
+  <include src="./views/footer.html"></include>
+</body>
+
+</html>
