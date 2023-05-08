@@ -3,7 +3,7 @@ BLOG PAGE
 **********************************************/
 
 .section {
-text-align: center;
+    text-align: center;
 
     &__h2 {
         padding-top: $padding-normal;
@@ -11,17 +11,17 @@ text-align: center;
     }
 }
 
-.section1__h2, 
+.section1__h2,
 .section1__p {
     text-align: center;
 }
 
-@media (min-width:990px){
+@media (min-width:990px) {
     .section1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 20px; 
+        gap: 20px;
         padding-top: 30px;
         padding-bottom: 30px;
-        }
     }
+}

@@ -2,28 +2,29 @@
 MEMBERS PAGE
 **********************************************/
 
- .card-member {
+.card-member {
    padding: $padding-normal;
    margin-bottom: 10px;
    border-radius: 10px;
 
-   &__h2, &__p {
-      padding-top: 10px;  
+   &__h2,
+   &__p {
+      padding-top: 10px;
       text-align: center;
    }
- }
+}
 
- /**********MODIFICADORES********/
- .card-member--black {
-    color: var(--color-white); 
-    background-color: var(--color-black);
- }
+/**********MODIFICADORES********/
+.card-member--black {
+   color: var(--color-white);
+   background-color: var(--color-black);
+}
 
- .card-member--white {
-    color: var(--color-black); 
-    background-color: var(--color-white);
-   
- }
+.card-member--white {
+   color: var(--color-black);
+   background-color: var(--color-white);
+
+}
 
 @media (min-width:768px) {
    .cards-container {
@@ -31,17 +32,17 @@ MEMBERS PAGE
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-    }
+   }
 
-    .card-member {
+   .card-member {
       flex-basis: calc(50% - 10px);
       margin-bottom: 20px;
-    }
+   }
 
 }
 
 @media (min-width:990px) {
- .card-member {
-   flex-basis: calc(33.33% - 10px);  
- }
+   .card-member {
+      flex-basis: calc(33.33% - 10px);
+   }
 }
